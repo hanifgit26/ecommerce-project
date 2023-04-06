@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is an Ecommerce-project project for makeing HANIF-EXPRESS" />
+    <title>Ecommerce-project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+      <ul class="nav-upper flex-space-around">
+        <li class="nav__list"><a href="index.html" class="nav__link">Home</a></li>
+        <li class="nav__list"><a href="register.html" class="nav__link">Register</a></li>
+        <li class="nav__list"><a href="login.html" class="nav__link">Login</a></li>
+        <li class="nav__list"><a href="logout.html" class="nav__link">Logout</a></li>
+        <li class="nav__list"><a href="contact.html" class="nav__link">Contact</a></li>
+        <li class="nav__list">
+          <a href="profile.html"><img class="profile-icon" src="image/hanifchy.png" alt="hanifchy" /></a>
+        </li>
+      </ul>
+      <ul class="nav-lower flex-space-around">
+        <li class="nav__list"><a href="index.html" class="nav__link nav__brand">Hanif Express</a></li>
+        <li class="nav__list">
+          <a href="card.html" class="nav__link">
+            <span><i class="fa-card-shopping fa-solid"></i></span>Cart 2 products -$220.40
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="flex-center">
+      <div class="main-content">
+        <section class="product-details flex-center">
+          <div class="product-details-left flex-center">
+            <img src="image/hanifchy.png" alt="hanif" />
+          </div>
+          <div class="product-details-right">
+            <h3 class="product__name">Sony V-4 Headphone</h3>
+            <p>
+              <span class="dot green"></span>
+              <span class="dot black"></span>
+              <span class="dot rad"></span>
+            </p>
+            <p class="product__description">
+              <strong>product description :</strong>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi alias tempore ea neque consectetur consequatur nam assumenda eius rem
+              est nesciunt, accusantium dolorem, officiis mollitia.
+            </p>
+            <p class="product__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dignissimos blanditiis incidunt obcaecati labore harum quam aspernatur
+              eius vero? Quas nostrum alias voluptates cumque aut quos vero inventore tempore nihil quibusdam eos, sint, saepe rem.
+            </p>
+            <h4 class="product__category">Category: Headphone</h4>
+            <h4 class="product__price">Price: $225.99</h4>
+            <p class="product__rating">Rating: 4.5/5</p>
+            <button class="btn product__button">ADD TO CART</button>
+            <button class="btn product__button">BACK TO HOME</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer flex-space-around">
+      <div class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter :</label>
+        <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder=" Entere your email" />
+        <button class="btn btn__subscrive">subscribe</button>
+      </div>
+      <div>
+        <p>&copy;Copyright 2023 Hanif Express. All rights rserved</p>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
